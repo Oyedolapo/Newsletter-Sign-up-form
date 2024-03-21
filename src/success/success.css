@@ -1,0 +1,42 @@
+.success-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 25%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+.success-content h1{
+    color: hsl(234, 29%, 20%);
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+.success-content p{
+    color: hsl(234, 29%, 20%);
+    font-size: 0.78rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.success-btn button{
+    background-color: hsl(234, 29%, 20%);
+    border: none;
+    width: 100%;
+    height: 40px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.success-btn a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+@media screen and (max-width: 770px) {
+    .success-card{
+        width: 90%;
+    }
+}

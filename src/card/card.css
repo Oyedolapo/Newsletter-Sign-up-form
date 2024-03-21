@@ -1,0 +1,96 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 60%;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+.card-text h1{
+    color: hsl(234, 29%, 20%);
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.card-text h2{
+    color: hsl(234, 29%, 20%);
+    font-size: 0.85rem;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+.card-subText span{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.8rem 0;
+}
+.card-subText span h4{
+    color: hsl(234, 29%, 20%);
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+.email-input label{
+    color: hsl(234, 29%, 20%);
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+.mail{
+    border: 0.3px solid hsl(231, 7%, 60%);
+    width: 80%;
+    height: 40px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    outline: none;
+    margin: 0.3rem 0 1rem;
+    color: hsl(231, 7%, 60%);
+}
+.pop{
+    border: 0.3px solid hsl(4, 100%, 67%);
+    background-color: hsl(3, 40%, 67%);
+    width: 80%;
+    height: 40px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    outline: none;
+    margin: 0.3rem 0 1rem;
+    color: hsl(4, 100%, 67%);
+}
+.card-btn button{
+    background-color: hsl(234, 29%, 20%);
+    /* color: hsl(0, 0%, 100%); */
+    border: none;
+    width: 80%;
+    height: 40px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-btn a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+.pop-ups{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+}
+small{
+    font-size: 0.75rem;
+    color: hsl(4, 100%, 67%);
+    font-weight: 700;
+}
+
+@media screen and (max-width: 770px) {
+    .card{
+        flex-direction: column-reverse;
+        width: 90%;
+        padding: 1.5rem;
+        border-radius: 1rem;
+    }
+    .card-image img{
+        max-width: 100%;
+        margin-bottom: 1.5rem;
+    }
+}
